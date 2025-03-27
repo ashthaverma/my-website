@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#fackHeader{
+    width: 100%;
+    height: 10%;
+
+}
+#logo{
+    height: 60%;
+    background-color: aliceblue;
+
+}
+.text{
+    color:rgb(9, 9, 135) ;
+}
+.text:hover{
+    color: rgb(130, 211, 233);
+}
+.page{
+    width: 100%;
+    height: 90%;
+}
+#page1{
+    background-color:beige;
+}
+#strip{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(27, 85, 121);
+    color:aliceblue;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+#heading{
+    width: 100%;
+    height:15% ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(22, 60, 85);
+    background-color: white;
+}
+#content{
+width: 100%;
+height: 78%;
+display: flex;
+background-color: white;
+}
+#Box1{
+    height: 95%;
+    width: 50%;
+    background-color:white;
+    margin: 10px;
+    
+}
+#Box1 h1{
+    font-weight: 600;
+    color: rgb(31, 96, 145);
+    font-size: 50px;
+    margin: 30px;
+}
+#Box1 p{
+    color: rgb(31, 96, 145);
+    margin: 35px;
+    font-size: x-large;
+    font-weight:lighter;
+}
+
+#bottons{
+    display: flex;
+    
+}
+#btn1{
+    text-align: center;
+    width: 23%;
+    color: white;
+    background-color: rgb(35, 108, 122);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+#btn1:hover{
+    background-color: rgb(20, 81, 113);
+}
+#btn2{
+    text-align: center;
+    width: 23%;
+    color: rgb(33, 109, 124); 
+    border:1px solid  rgb(34, 103, 117); ;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+
+}
+#btn2:hover{
+    background-color: lightblue;
+    color:rgb(19, 79, 114) ;
+}
+
+#Box2{
+    width: 50%;
+    height:95%;
+    background-color:white;
+    margin: 10px;
+
+}
+#page2{
+    background-color:cadetblue;
+
+}
+#contactDetails{
+    text-align: center;
+    color:rgb(12, 12, 136);
+    font-weight: lighter;
+
+}
+#contactDetails:hover{
+    color: rgb(136, 207, 231);
+}
+#login{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+#login:hover{
+    background-color: rgb(140, 203, 224);
+}
+.icon{
+    padding: 5px;
+    border-radius:50%;
+}
+.icon:hover{    background-color: lightblue;
+}
+#try{
+    background-color:rgb(12, 124, 12);
+    padding:10px 20px ;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(5, 99, 5);
+}
